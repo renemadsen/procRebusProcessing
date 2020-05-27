@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microting.RebusPOC.Service", "Microting.RebusPOC.Service.csproj", "{99668E0F-17FB-4F22-BD5F-9C79B96C717D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microting.RebusPOC.Infrastructure", "..\Microting.RebusPOC.DataAccess\Microting.RebusPOC.Infrastructure.csproj", "{185B0478-A956-4521-B2AC-B530C1784FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microting.RebusPOC.Worker", "..\Microting.RebusPOC.Worker\Microting.RebusPOC.Worker.csproj", "{5F51164F-A65B-43A3-9FFB-A197E78DFE7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99668E0F-17FB-4F22-BD5F-9C79B96C717D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99668E0F-17FB-4F22-BD5F-9C79B96C717D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99668E0F-17FB-4F22-BD5F-9C79B96C717D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99668E0F-17FB-4F22-BD5F-9C79B96C717D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185B0478-A956-4521-B2AC-B530C1784FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185B0478-A956-4521-B2AC-B530C1784FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185B0478-A956-4521-B2AC-B530C1784FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185B0478-A956-4521-B2AC-B530C1784FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F51164F-A65B-43A3-9FFB-A197E78DFE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F51164F-A65B-43A3-9FFB-A197E78DFE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F51164F-A65B-43A3-9FFB-A197E78DFE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F51164F-A65B-43A3-9FFB-A197E78DFE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC0967C-735B-467D-9C83-4CDC48635D4A}
+	EndGlobalSection
+EndGlobal
